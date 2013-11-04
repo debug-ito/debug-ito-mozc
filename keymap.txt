@@ -1,0 +1,74 @@
+status	key	command
+Composition	Backspace	Backspace
+Composition	Ctrl a	MoveCursorToBeginning
+Composition	Ctrl d	Backspace
+Composition	Ctrl e	MoveCursorToEnd
+Composition	Ctrl f	MoveCursorRight
+Composition	Ctrl g	Cancel
+Composition	Ctrl h	Backspace
+Composition	Ctrl m	Commit
+Composition	Ctrl n	ConvertNext
+Composition	Ctrl p	ConvertPrev
+Composition	Delete	Delete
+Composition	Enter	Commit
+Composition	Hankaku/Zenkaku	IMEOff
+Composition	Henkan	Convert
+Composition	Space	Convert
+Composition	Tab	PredictAndConvert
+Conversion	Backspace	Cancel
+Conversion	Ctrl a	SegmentFocusFirst
+Conversion	Ctrl d	Cancel
+Conversion	Ctrl e	SegmentFocusLast
+Conversion	Ctrl f	SegmentFocusRight
+Conversion	Ctrl g	Cancel
+Conversion	Ctrl h	Cancel
+Conversion	Ctrl i	SegmentWidthShrink
+Conversion	Ctrl o	SegmentWidthExpand
+Conversion	Ctrl m	Commit
+Conversion	Ctrl n	ConvertNext
+Conversion	Ctrl p	ConvertPrev
+Conversion	Delete	Cancel
+Conversion	Enter	Commit
+Conversion	Ctrl j	Commit
+Conversion	Hankaku/Zenkaku	IMEOff
+Conversion	Henkan	ConvertNext
+Conversion	Space	ConvertNext
+DirectInput	Eisu	IMEOn
+DirectInput	F13	IMEOn
+DirectInput	Hankaku/Zenkaku	IMEOn
+DirectInput	Henkan	Reconvert
+DirectInput	Hiragana	IMEOn
+DirectInput	Katakana	IMEOn
+Precomposition	Backspace	Revert
+Precomposition	Ctrl Backspace	Undo
+Precomposition	Ctrl Eisu	ToggleAlphanumericMode
+Precomposition	Ctrl Shift Space	InsertFullSpace
+Precomposition	Eisu	ToggleAlphanumericMode
+Precomposition	Hankaku/Zenkaku	IMEOff
+Precomposition	Hiragana	InputModeHiragana
+Precomposition	Henkan	Reconvert
+Precomposition	Katakana	InputModeFullKatakana
+Precomposition	Muhenkan	InputModeSwitchKanaType
+Precomposition	Shift Muhenkan	ToggleAlphanumericMode
+Precomposition	Shift Space	InsertAlternateSpace
+Precomposition	Space	InsertSpace
+Suggestion	Down	PredictAndConvert
+Suggestion	Shift Enter	CommitFirstSuggestion
+Composition	Ctrl j	Commit
+Composition	Ctrl b	MoveCursorLeft
+Conversion	Ctrl b	SegmentFocusLeft
+Composition	Muhenkan	ConvertToFullKatakana
+Conversion	Muhenkan	ConvertToFullKatakana
+Composition	ASCII	InsertCharacter
+Composition	Kanji	IMEOff
+Composition	OFF	IMEOff
+Composition	ON	IMEOn
+Conversion	Kanji	IMEOff
+Conversion	OFF	IMEOff
+Conversion	ON	IMEOn
+DirectInput	Kanji	IMEOn
+DirectInput	ON	IMEOn
+Precomposition	ASCII	InsertCharacter
+Precomposition	Kanji	IMEOff
+Precomposition	OFF	IMEOff
+Precomposition	ON	IMEOn
