@@ -1,7 +1,7 @@
 status	key	command
 Composition	Backspace	Backspace
 Composition	Ctrl a	MoveCursorToBeginning
-Composition	Ctrl d	Backspace
+Composition	Ctrl d	Delete
 Composition	Ctrl e	MoveCursorToEnd
 Composition	Ctrl f	MoveCursorRight
 Composition	Ctrl g	Cancel
@@ -59,6 +59,28 @@ Composition	Ctrl b	MoveCursorLeft
 Conversion	Ctrl b	SegmentFocusLeft
 Composition	Muhenkan	ConvertToFullKatakana
 Conversion	Muhenkan	ConvertToFullKatakana
+Composition	Home	MoveCursorToBeginning
+Composition	End	MoveCursorToEnd
+Composition	Right	MoveCursorRight
+Composition	Left	MoveCursorLeft
+Composition	Escape	Cancel
+Composition	Enter	Commit
+Composition	Up	ConvertPrev
+Composition	Down	ConvertNext
+Composition	Ctrl j	Commit
+Conversion	Home	SegmentFocusFirst
+Conversion	End	SegmentFocusLast
+Conversion	Right	SegmentFocusRight
+Conversion	Left	SegmentFocusLeft
+Conversion	Ctrl b	SegmentFocusLeft
+Conversion	Escape	Cancel
+Conversion	Shift Right	SegmentWidthExpand
+Conversion	Shift Left	SegmentWidthShrink
+Conversion	Up	ConvertPrev
+Conversion	Down	ConvertNext
+Conversion	PageDown	ConvertNextPage
+Conversion	Ctrl v	ConvertNextPage
+Conversion	PageUp	ConvertPrevPage
 Composition	ASCII	InsertCharacter
 Composition	Kanji	IMEOff
 Composition	OFF	IMEOff
